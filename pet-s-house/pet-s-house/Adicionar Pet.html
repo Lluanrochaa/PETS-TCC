@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Adicionar Pet</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="Adicionar Pet.css">
+</head>
+<body>
+
+  <div class="container">
+    <h2>Adicionar pet</h2>
+    <div class="tabs">
+      <button class="active">🐶 Cachorro</button>
+      <button>🐱 Gato</button>
+    </div>
+
+    <div class="photo-upload">
+      <img src="#" alt="Foto Pet" />
+      <span>Adicione uma foto</span>
+    </div>
+
+    <div class="form-group">
+      <label>Gênero</label>
+      <div class="gender-btns">
+        <button class="selected">♂️ Macho</button>
+        <button>♀️ Fêmea</button>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label>Castrado</label>
+      <select>
+        <option>Selecione aqui</option>
+        <option>Sim</option>
+        <option>Não</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label>Nome</label>
+      <input type="text" placeholder="Digite o nome">
+    </div>
+
+    <div class="form-group">
+      <label>Raça</label>
+      <input type="text" placeholder="Digite a raça">
+    </div>
+
+    <div class="form-group">
+      <label>Tamanho</label>
+      <select>
+        <option>Selecione aqui</option>
+        <option>Pequeno</option>
+        <option>Médio</option>
+        <option>Grande</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label>Aniversário</label>
+      <div style="display: flex; gap: 10px;">
+        <select><option>Dia</option></select>
+        <select><option>Mês</option></select>
+        <select><option>Ano</option></select>
+      </div>
+      <div class="checkbox-inline">
+        <input type="checkbox" id="conheceData">
+        <label for="conheceData">Sei o dia e o mês</label>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label>Quais das vacinas tomou no último ano?</label>
+      <div class="vaccines">
+        <button>V8/V10</button>
+        <button>Antirrábica</button>
+      </div>
+    </div>
+
+    <div class="buttons">
+      <button class="cancel">Cancelar</button>
+      <button class="save">Salvar</button>
+    </div>
+  </div>
+
+</body>
+</html>
